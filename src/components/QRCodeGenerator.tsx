@@ -58,7 +58,7 @@ const QRCodeGenerator = () => {
           placeholder="Entrez votre texte"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className="w-full p-3 mb-6 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+          className="w-full p-3 mb-6 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition text-gray-800" 
         />
 
         <button
