@@ -3,7 +3,7 @@
 import { useState, useRef } from 'react'
 import QRCode from 'qrcode'
 import { toPng } from 'html-to-image'
-import logo from '../../public/CpsLogo.jpg'
+// import logo from '../../public/CpsLogo.jpg'
 import GrandLogoCps from '../../public/GrandLogoCps.png'
 import Image from 'next/image'
 
@@ -83,13 +83,13 @@ const QRCodeGenerator = () => {
                 className="object-contain rounded-lg"
                 unoptimized
               />
-              <Image
+              {/* <Image
                 src={logo}
                 alt="Logo CPS"
                 width={64}
                 height={64}
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white shadow"
-              />
+              /> */}
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center sm:gap-8">
